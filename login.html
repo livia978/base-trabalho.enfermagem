@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
 
+    <div class="login-card">
+
+        <h1>Faça seu login</h1>
+
+        <div class="form">
+
+            <div class="input-group">
+                <label for="nome">Nome completo:</label>
+                <input
+                    type="text"
+                    id="nome"
+                    placeholder="Digite seu nome"
+                >
+            </div>
+
+            <div class="input-group">
+                <label for="senha">Senha:</label>
+                <input
+                    type="password"
+                    id="senha"
+                    placeholder="Digite sua senha"
+                >
+            </div>
+
+            <p class="profession-title">Selecione sua profissão:</p>
+
+            <div class="profession-options">
+
+                <button class="profession" onclick="selecionarProfissao(this)">
+                    Sou enfermeiro(a)
+                </button>
+
+                <button class="profession" onclick="selecionarProfissao(this)">
+                    Sou médico(a)
+                </button>
+
+            </div>
+
+            <button class="login-button" onclick="entrar()">
+                Entrar
+            </button>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

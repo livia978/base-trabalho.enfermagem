@@ -1,0 +1,119 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: #ccecf7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-card {
+            width: 700px;
+            min-height: 650px;
+            background: #ffffff;
+            border-radius: 25px;
+            padding: 70px 90px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        h1 {
+            font-size: 42px;
+            color: #172b3d;
+            margin-bottom: 45px;
+        }
+
+        .form {
+            width: 100%;
+            max-width: 430px;
+        }
+
+        .input-group {
+            margin-bottom: 22px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 7px;
+            font-size: 17px;
+            color: #555;
+        }
+
+        .input-group input {
+            width: 100%;
+            height: 52px;
+            border: none;
+            outline: none;
+            background: #f9dfe2;
+            border-radius: 28px;
+            padding: 0 22px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .input-group input:focus {
+            border: 2px solid #8fc5df;
+        }
+
+        .profession-title {
+            color: #555;
+            font-size: 17px;
+            margin: 28px 0 12px;
+        }
+
+        .profession-options {
+            display: flex;
+            gap: 10px;
+        }
+
+        .profession {
+            flex: 1;
+            height: 52px;
+            border: 1px solid #c9c9c9;
+            border-radius: 12px;
+            background: #ffffff;
+            font-size: 16px;
+            color: #333;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .profession:hover {
+            background: #f2f8fb;
+        }
+
+        .profession.selected {
+            background: #ccecf7;
+            border-color: #83b9d2;
+    }
+
+.login-button {
+    display: block;
+    width: 150px;
+    height: 60px;
+    margin: 45px auto 0 auto;
+    border: none;
+    border-radius: 12px;
+    background: #a8d3e8;
+    color: #304c5e;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.login-button:hover {
+    background: #8fc5df;
+    transform: translateY(-2px);
+}
+
+.login-button:active {
+    transform: translateY(0);
+}
